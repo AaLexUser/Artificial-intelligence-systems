@@ -23,6 +23,8 @@ sister(X, Y) :- female(X), sibling(X, Y).
 uncle(X, Y) :- brother(X, Z), parent(Z, Y), brother(X, Z).
 aunt(X, Y) :- parent(Z, Y), sister(X, Z).
 
+predecessor(X, Y) :- parent(X, Y).
+predecessor(X, Y) :- parent(X, Z), predecessor(Z, Y).
 cousin(X, Y) :-  parent(Z, Y), parent(A, X), sibling(A, Z).
 
 %facts

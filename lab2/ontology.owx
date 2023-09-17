@@ -1,0 +1,1569 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aleksei/ontologies/2023/8/lab2"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aleksei/ontologies/2023/8/lab2">
+    <Prefix name="" IRI="http://www.semanticweb.org/aleksei/ontologies/2023/8/lab2/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luigi_appears_in_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supporting_Character"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#antagonist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_2d_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_3d_game"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_GameBoy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_GameCube"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_Mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_NES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_Nintendo3DS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_Nintendo64"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_NintendoDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_Nintendo_Switch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_SNES"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_Wii"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_Wii_U"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#protagonist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#release_year_more_than_2010"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#appears_in_game"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#game_graphics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#game_on_platform"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#release_year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Baby_Luma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bowser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cappy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cosmic_Spirit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dorrie"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FLUDD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fluzzard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GameCube"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Game_Boy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hoot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lubba"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luigi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NES"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nintendo_3DS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nintendo_64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nintendo_DS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nintendo_Switch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Princess_Peach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SNES"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Land"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Toadsworth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wii"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wii_U"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3D"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Super_Mario_Land_2:_6_Golden_Coins."/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Luigi_appears_in_game"/>
+        <ObjectHasValue>
+            <ObjectInverseOf>
+                <ObjectProperty IRI="#appears_in_game"/>
+            </ObjectInverseOf>
+            <NamedIndividual IRI="#Luigi"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#antagonist"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Bowser"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_2d_game"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_graphics"/>
+                <NamedIndividual IRI="#2D"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_3d_game"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_graphics"/>
+                <NamedIndividual IRI="#3D"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_GameBoy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Game_Boy"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_GameCube"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#GameCube"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_Mobile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Mobile"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_NES"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#NES"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_Nintendo3DS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Nintendo_3DS"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_Nintendo64"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Nintendo_64"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_NintendoDS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Nintendo_DS"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_Nintendo_Switch"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Nintendo_Switch"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_SNES"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#SNES"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_Wii"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Wii"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_Wii_U"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <NamedIndividual IRI="#Wii_U"/>
+            </ObjectHasValue>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#appears_in_game_on_platform"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#appears_in_game"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#game_on_platform"/>
+                <Class IRI="#Platform"/>
+            </ObjectSomeValuesFrom>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#protagonist"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="#Luigi"/>
+            <NamedIndividual IRI="#Mario"/>
+            <NamedIndividual IRI="#Princess_Daisy"/>
+            <NamedIndividual IRI="#Princess_Peach"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#release_year_more_than_2010"/>
+        <DataSomeValuesFrom>
+            <DataProperty IRI="#release_year"/>
+            <DatatypeRestriction>
+                <Datatype abbreviatedIRI="xsd:decimal"/>
+                <FacetRestriction facet="http://www.w3.org/2001/XMLSchema#minExclusive">
+                    <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2010</Literal>
+                </FacetRestriction>
+            </DatatypeRestriction>
+        </DataSomeValuesFrom>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Game"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#game_on_platform"/>
+            <Class IRI="#Platform"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_Character"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supporting_Character"/>
+        <Class IRI="#Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#antagonist"/>
+        <Class IRI="#Main_Character"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_GameBoy"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_GameCube"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_Mobile"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_NES"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_Nintendo3DS"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_Nintendo64"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_NintendoDS"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_Nintendo_Switch"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_SNES"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_Wii"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appears_in_game_on_Wii_U"/>
+        <Class IRI="#appears_in_game_on_platform"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#protagonist"/>
+        <Class IRI="#Main_Character"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Character"/>
+        <Class IRI="#Game"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Character"/>
+        <Class IRI="#Platform"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Game"/>
+        <Class IRI="#Platform"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Main_Character"/>
+        <Class IRI="#Supporting_Character"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#antagonist"/>
+        <Class IRI="#protagonist"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Baby_Luma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Baby_Luma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Bowser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_Character"/>
+        <NamedIndividual IRI="#Bowser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#antagonist"/>
+        <NamedIndividual IRI="#Bowser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Cappy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Cappy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Cosmic_Spirit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Cosmic_Spirit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Dorrie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Dorrie"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#FLUDD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#FLUDD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Fluzzard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Fluzzard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#GameCube"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Game_Boy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Hoot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Hoot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Kings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Kings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Lubba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Lubba"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Luigi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_Character"/>
+        <NamedIndividual IRI="#Luigi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#protagonist"/>
+        <NamedIndividual IRI="#Luigi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_Character"/>
+        <NamedIndividual IRI="#Mario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#protagonist"/>
+        <NamedIndividual IRI="#Mario"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Mobile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#NES"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Nintendo_3DS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Nintendo_64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Nintendo_DS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Nintendo_Switch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_Character"/>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#protagonist"/>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Main_Character"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#protagonist"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Ray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Ray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#SNES"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Land"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Character"/>
+        <NamedIndividual IRI="#Toadsworth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Supporting_Character"/>
+        <NamedIndividual IRI="#Toadsworth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Wii"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Platform"/>
+        <NamedIndividual IRI="#Wii_U"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#2D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Graphics"/>
+        <NamedIndividual IRI="#3D"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Game"/>
+        <NamedIndividual IRI="#Super_Mario_Land_2:_6_Golden_Coins."/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Mario"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Baby_Luma"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Baby_Luma"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Bowser"/>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Cappy"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Cosmic_Spirit"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Dorrie"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Dorrie"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Dorrie"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#FLUDD"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Fluzzard"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Hoot"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Kings"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Lubba"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Luigi"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Land"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Mario"/>
+        <NamedIndividual IRI="#Super_Mario_Land_2:_6_Golden_Coins."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+        <NamedIndividual IRI="#Nintendo_DS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+        <NamedIndividual IRI="#Nintendo_3DS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+        <NamedIndividual IRI="#Wii_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+        <NamedIndividual IRI="#Wii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+        <NamedIndividual IRI="#Super_Mario_Land"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Daisy"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Princess_Peach"/>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Ray"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+        <NamedIndividual IRI="#3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+        <NamedIndividual IRI="#Nintendo_3DS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+        <NamedIndividual IRI="#3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+        <NamedIndividual IRI="#Wii_U"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+        <NamedIndividual IRI="#3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+        <NamedIndividual IRI="#Nintendo_64"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+        <NamedIndividual IRI="#NES"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+        <NamedIndividual IRI="#NES"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+        <NamedIndividual IRI="#NES"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+        <NamedIndividual IRI="#Nintendo_Switch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+        <NamedIndividual IRI="#3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+        <NamedIndividual IRI="#Wii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+        <NamedIndividual IRI="#3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+        <NamedIndividual IRI="#Wii"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Land"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Land"/>
+        <NamedIndividual IRI="#Game_Boy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+        <NamedIndividual IRI="#3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+        <NamedIndividual IRI="#Nintendo_Switch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+        <NamedIndividual IRI="#Mobile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+        <NamedIndividual IRI="#3D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+        <NamedIndividual IRI="#GameCube"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+        <NamedIndividual IRI="#SNES"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <NamedIndividual IRI="#Toadsworth"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+        <NamedIndividual IRI="#NES"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_graphics"/>
+        <NamedIndividual IRI="#Super_Mario_Land_2:_6_Golden_Coins."/>
+        <NamedIndividual IRI="#2D"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <NamedIndividual IRI="#Super_Mario_Land_2:_6_Golden_Coins."/>
+        <NamedIndividual IRI="#Game_Boy"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2006</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._U"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#New_Super_Mario_Bros._Wii"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2009</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_3D_Land"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2011</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_3D_World"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2013</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_64"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1996</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Bros."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1985</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1988</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1988</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Bros._Wonder"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2023</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2007</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Galaxy_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Land"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1989</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Odyssey"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Run"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Sunshine"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_World"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Bros.:_The_Lost_Levels"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1986</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#release_year"/>
+        <NamedIndividual IRI="#Super_Mario_Land_2:_6_Golden_Coins."/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1992</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#game_graphics"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#game_graphics"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#game_on_platform"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <Class IRI="#Character"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#game_graphics"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#appears_in_game"/>
+        <Class IRI="#Game"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#game_graphics"/>
+        <Class IRI="#Graphics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#game_on_platform"/>
+        <Class IRI="#Platform"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#release_year"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#release_year"/>
+        <Class IRI="#Game"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#release_year"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
