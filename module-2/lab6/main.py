@@ -1,12 +1,14 @@
 import pandas as pd
 import numpy as np
 
-from decisionTree import DecisionTree
+from desTree import DecisionTree
 from sklearn.model_selection import train_test_split
-from metrics import confusion_matrix_prob, fpr, tpr, recall, precision
+from sklearn.metrics import accuracy_score
+from metrics import confusion_matrix_prob, fpr, tpr, recall, precision, accuracy
 import matplotlib.pyplot as plt
 from IPython.display import display
 import seaborn as sns
+from math import ceil, sqrt
 
 
 def file_init(filename: str):
@@ -15,7 +17,7 @@ def file_init(filename: str):
     y = df['GRADE']
     y = pd.Series([1 if i >= 4 else 0 for i in y])
     cols = X.columns
-    cols = np.random.choice(cols, 2, replace=False)
+    cols = np.random.choice(cols, ceil(sqrt(X.shape[1])), replace=False)
     X = X[cols]
     return X, y
 
@@ -84,5 +86,5 @@ if __name__ == '__main__':
     X_train, X_test, y_train, y_test = train_test_split(
         X.values, y.values, test_size=0.2, random_state=1234
     )
-    y_prob = make_pred_prob(X_train, y_train, X_test)
-    auc_pr_plot(y_prob, y_test)
+    y_pred = make_prediction(X_train, y_train, X_test)
+    print(accuracy_score(y_test,y_pred))
